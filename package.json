@@ -1,11 +1,30 @@
 {
   "name": "poc-common-util",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/worawutbat/poc-common-util"
+  },
+  "keywords": [
+    "utility",
+    "common",
+    "poc"
+  ],
   "author": "Worawut",
   "license": "ISC",
-  "description": ""
+  "description": "A set of common utilities for proof of concept projects.",
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  }
 }
